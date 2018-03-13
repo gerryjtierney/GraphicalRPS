@@ -1,0 +1,71 @@
+body{
+	background-color: #50514f;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 5%;
+	font-family: 'Fjalla One', Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	color: white;
+}
+
+button{
+	margin-top: 1%;
+	margin-right: 10px;
+	color: white;
+	opacity: 0.75;
+}
+
+button:hover{
+	opacity: 1;
+}
+
+#rock{
+	margin-left: 200px;
+	height: 290px;
+	width: 300px;
+	background-image: url("images/rock-icon.png");
+	background-color: transparent;
+	border-style: none;
+ }
+
+#paper{
+	height: 290px;
+	width: 300px;
+	background-image: url("images/paper-icon.png");
+	background-color: transparent;
+	border-style: none;
+
+ }
+
+#scissors{
+	height: 290px;
+	width: 300px;
+	background-image: url("images/scissors-icon.png");
+	background-color: transparent;
+	border-style: none;
+ }
+
+div{
+	text-align: center;
+}
+
+#result{
+	margin-top: 3%;
+	font-family: 'Fjalla One', Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	color: #d5a18e;
+}
+
+#score{
+	color: white;
+	font-size: 23px;
+}
+
+#winner{
+	font-family: 'Fjalla One', Helvetica, Arial, sans-serif;
+	margin-top: 15px;
+	font-size: 34px;
+	color: white;
+}
